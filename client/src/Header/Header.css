@@ -1,0 +1,22 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 5px;
+}
+.header img{
+    width: 220px;
+    height: 100%;
+}
+.length{
+    background-color: black;
+    color: white;
+    border-radius: 3px;
+    padding: 3px 8px 3px 8px;
+    transform: translateX(-10px);
+}
+.radio{
+    font-size: 27px;
+    color: whitesmoke;
+    transform: translateX(-15px);
+}

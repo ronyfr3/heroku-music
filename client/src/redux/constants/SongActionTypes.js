@@ -1,0 +1,3 @@
+export const CREATE_SONG="CREATE_SONG"
+export const DELETE_SONG="DELETE_SONG"
+export const GET_ALL_SONGS="GET_ALL_SONGS"

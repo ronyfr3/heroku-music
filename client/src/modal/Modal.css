@@ -1,0 +1,52 @@
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg %3E%3Cpolygon fill='%23220000' points='1600 160 0 460 0 350 1600 50'/%3E%3Cpolygon fill='%23440000' points='1600 260 0 560 0 450 1600 150'/%3E%3Cpolygon fill='%23660000' points='1600 360 0 660 0 550 1600 250'/%3E%3Cpolygon fill='%23880000' points='1600 460 0 760 0 650 1600 350'/%3E%3Cpolygon fill='%23A00' points='1600 800 0 800 0 750 1600 450'/%3E%3C/g%3E%3C/svg%3E");
+  background-attachment: fixed;
+  background-size: cover;
+  z-index: 1;
+}
+.backdrop img{
+    border-radius: 50%;
+    width: 50%;
+    height: 50%;
+}
+.modal {
+  border-radius: 10px;
+  width: 60%;
+  margin: 0 auto;
+  padding: 40px 20px;
+  background-color: #000000;
+  background-color: #ffffff;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160' viewBox='0 0 200 200'%3E%3Cpolygon fill='%23DCEFFA' points='100 0 0 100 100 100 100 200 200 100 200 0'/%3E%3C/svg%3E");
+  text-align: center;
+  position:relative;
+  top: -175px;
+}
+.closeIcon{
+position: absolute;
+top: 0;
+padding: 5px;
+right: 0;
+cursor: pointer;
+}
+.modal h3{
+    color: rgb(20, 130, 220);
+}
+.modal h1{
+    color: rgb(78, 78, 78);
+    font-size: 23px;
+}
+.modal small{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mail{
+    font-size: 18px;
+    color: crimson;
+}

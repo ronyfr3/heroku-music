@@ -1,0 +1,11 @@
+.gif{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 120px auto;
+}
+.gif img{
+    width: 150px;
+    height: 150px;
+}
